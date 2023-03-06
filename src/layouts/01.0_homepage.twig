@@ -1,0 +1,35 @@
+{% extends "@components/base/base.twig" %} {% set title = "01.0_homepage" %} {%
+block main %}
+<div class="main__row">
+  <div class="main__content">
+    {% include "@components/topstory-section/topstory-section.twig" %}
+    <div class="row g-4">
+      <div class="col-xxl-6">
+        <div class="mb-10">
+          {% include "@components/post/post.twig" %} {% include
+          "@components/post/post.twig" %} {% include
+          "@components/post/post.twig" %}
+        </div>
+        <div class="">
+          {% include "@components/news/news.twig" %} {% include
+          "@components/news/news.twig" %} {% include
+          "@components/news/news.twig" %} {% include
+          "@components/news/news.twig" %} {% include
+          "@components/news/news.twig" %} {% include
+          "@components/news/news.twig" %} {% include
+          "@components/news/news.twig" %}
+        </div>
+        <a class="h6" href="#">archiv článků</a>
+      </div>
+      <div class="col-xxl-6">
+        {% include "@components/hp-table/hp-table.twig" %} {% include
+        "@components/hp-table/hp-table.twig" %} {% include
+        "@components/hp-table/hp-table.twig" %} {% include
+        "@components/hp-table/hp-table.twig" %}
+      </div>
+    </div>
+  </div>
+  {% include "@components/aside/aside.twig" %}
+</div>
+
+{% endblock %}

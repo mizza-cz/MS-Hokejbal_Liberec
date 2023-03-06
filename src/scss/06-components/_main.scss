@@ -1,0 +1,24 @@
+.main {
+  padding: 0 8px;
+  width: 100%;
+  &__row {
+    display: flex;
+  }
+  &__content {
+    padding-right: 16px;
+    max-width: 55rem;
+    width: 100%;
+    @include media-breakpoint-down(xl) {
+      max-width: 100%;
+      padding-right: 0;
+    }
+  }
+  aside {
+    max-width: 343px;
+    width: 100%;
+  }
+}
+.wrapper {
+  display: flex;
+  padding-top: 24px;
+}

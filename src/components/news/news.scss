@@ -1,0 +1,35 @@
+.news {
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  &:hover {
+    .p2 {
+      text-decoration-color: inherit;
+    }
+  }
+  &__row {
+    align-items: baseline;
+    .p2 {
+      display: block;
+      font-size: 14px;
+      line-height: 18px;
+      text-decoration: underline;
+      text-decoration-color: transparent;
+      transition: all 0.3s;
+    }
+  }
+  &__info {
+    padding-left: 6px;
+    @include media-breakpoint-down(sm) {
+      padding-left: 0;
+    }
+    .h6 {
+      letter-spacing: 0.5px;
+    }
+    .p3 {
+      color: var(--color-grey);
+      font-family: "Roboto Condensed", sans-serif;
+      margin-top: 8px;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+table {
+  width: 100%;
+}
+
+.table {
+  td {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  th {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    padding-bottom: 13px;
+    padding-top: 11px;
+  }
+  th,
+  td {
+    border-bottom: 1px solid var(--color-border);
+  }
+  tr:last-child td {
+    border-bottom: none;
+  }
+}

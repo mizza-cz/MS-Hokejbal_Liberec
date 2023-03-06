@@ -1,0 +1,37 @@
+.slick-arrow {
+  border: none;
+  background: transparent;
+  position: absolute;
+  padding: 0;
+  cursor: pointer;
+  img {
+    width: 28px;
+    height: 28px;
+  }
+}
+.slider__btnnext {
+  right: 0px;
+  top: -15px;
+  transform: translateY(-50%);
+}
+.slider__btnprev {
+  right: 28px;
+  top: -24px;
+}
+.slider__btn {
+  width: 18px;
+  height: 18px;
+}
+.js-header {
+  display: flex;
+  .slick-list {
+    width: 100% !important;
+  }
+  .slick-slide {
+    width: 100% !important;
+  }
+  .slick-track {
+    display: flex;
+    margin: 0;
+  }
+}
