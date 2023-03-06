@@ -162,7 +162,9 @@
     &.show {
       display: none !important;
       @include media-breakpoint-down(xl) {
-        display: block;
+        display: block !important;
+        transform: none !important;
+        width: 100%;
       }
     }
   }
