@@ -17,6 +17,9 @@
     border-radius: 4px;
     height: 100%;
     padding-bottom: 40px;
+    @include media-breakpoint-down(xl) {
+      height: max-content;
+    }
   }
   &__nav {
     position: relative;
