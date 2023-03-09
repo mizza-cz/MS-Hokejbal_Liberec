@@ -1,0 +1,36 @@
+.article-section {
+  margin-top: 56px;
+  margin-bottom: 60px;
+  @include media-breakpoint-down(md) {
+    margin-top: 32px;
+    margin-bottom: 40px;
+  }
+  &__inner {
+    max-width: 818px;
+    margin: 0 auto;
+    .hp-table__top {
+      margin-top: 80px;
+      @include media-breakpoint-down(md) {
+        margin-top: 60px;
+      }
+    }
+    .hp-posts__img {
+      max-width: 20%;
+      flex: 0 0 20%;
+      @include media-breakpoint-down(sm) {
+        max-width: 100%;
+        flex: 100%;
+        width: 100%;
+      }
+    }
+    .hp-posts__info {
+      max-width: 80%;
+      flex: 0 0 80%;
+      @include media-breakpoint-down(sm) {
+        max-width: 100%;
+        flex: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
