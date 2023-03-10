@@ -1,0 +1,12 @@
+input {
+  font-size: 0.875rem;
+  color: var(--color-red);
+  border: 0.125rem solid var(--color-dark);
+  height: 40px;
+  border-radius: 4px;
+  outline: none;
+  color: var(--color-dark);
+  &::placeholder {
+    color: var(--color-dark);
+  }
+}

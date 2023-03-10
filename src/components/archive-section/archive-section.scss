@@ -1,0 +1,26 @@
+.archive-section {
+  background-color: var(--color-light);
+  border-radius: 4px;
+  padding: 40px 32px;
+  margin-bottom: 20px;
+  &__inner {
+    .hp-posts__img {
+      max-width: 20%;
+      flex: 0 0 20%;
+      @include media-breakpoint-down(sm) {
+        max-width: 100%;
+        flex: 100%;
+        width: 100%;
+      }
+    }
+    .hp-posts__info {
+      max-width: 80%;
+      flex: 0 0 80%;
+      @include media-breakpoint-down(sm) {
+        max-width: 100%;
+        flex: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
