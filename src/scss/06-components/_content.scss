@@ -1,5 +1,13 @@
 .o-content {
   width: 100%;
+  .ratio {
+    margin: 32px auto;
+  }
+  .table {
+    @include media-breakpoint-down(lg) {
+      width: max-content;
+    }
+  }
   &::after {
     display: table;
     clear: both;
@@ -13,6 +21,74 @@
   }
   p {
     margin-bottom: 24px;
+  }
+  h1 {
+    margin-bottom: 32px;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 32px auto;
+  }
+
+  ul {
+    font-size: 16px;
+    line-height: 23px;
+    margin: 24px 0;
+    > li {
+      position: relative;
+      padding-left: 24px;
+      margin-bottom: 16px;
+      font-family: neue-haas-unica, arial;
+      &::before {
+        content: "";
+        background-color: var(--color-red);
+        position: absolute;
+        top: 6px;
+        left: 0;
+        width: 8px;
+        height: 8px;
+      }
+      > ul {
+        margin: 16px 0 0;
+        > li {
+          &::before {
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+  ol {
+    font-size: 16px;
+    line-height: 23px;
+    margin: 24px 0;
+    counter-reset: item;
+
+    > li {
+      counter-increment: item;
+      position: relative;
+      padding-left: 32px;
+      margin-bottom: 16px;
+      font-family: neue-haas-unica, arial;
+      &::before {
+        content: counter(item) ")";
+        color: var(--color-red);
+        font-weight: 700;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      > ol {
+        margin: 16px 0 0;
+        > li {
+          &::before {
+            content: counter(item) ".";
+          }
+        }
+      }
+    }
   }
 }
 .h1,

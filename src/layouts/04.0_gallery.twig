@@ -1,0 +1,10 @@
+{% extends "@components/base/base.twig" %} {% set title = "04.0_gallery" %} {%
+block main %}
+<div class="main__row">
+  <div class="main__content">
+    {% include "@components/gallery-section/gallery-section.twig" %}
+  </div>
+  {% include "@components/aside/aside.twig" %}
+</div>
+
+{% endblock %}
