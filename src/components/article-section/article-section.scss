@@ -34,3 +34,16 @@
     }
   }
 }
+.full-content {
+  .aside {
+    display: none;
+  }
+
+  .main__content {
+    max-width: 100%;
+    padding-right: 0;
+  }
+}
+.show-more .full-content .aside {
+  display: block;
+}

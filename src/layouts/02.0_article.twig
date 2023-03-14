@@ -1,4 +1,11 @@
 {% extends "@components/base/base.twig" %} {% set title = "02.0_article" %} {%
-block main %} {% include "@components/topstory-section/topstory-section-2.twig"
-%} {% include "@components/article-section/article-section.twig" %} {% endblock
-%}
+block main %}
+<div class="main__row full-content">
+  <div class="main__content">
+    {% include "@components/topstory-section/topstory-section-2.twig" %} {%
+    include "@components/article-section/article-section.twig" %}
+  </div>
+  {% include "@components/aside/aside.twig" %}
+</div>
+
+{% endblock %}
