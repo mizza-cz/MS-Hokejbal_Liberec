@@ -1,0 +1,42 @@
+.albums-section {
+  background-color: var(--color-light);
+  border-radius: 4px;
+  padding: 40px 32px;
+  margin-bottom: 20px;
+  &__info {
+    padding: 8px;
+    text-align: left;
+    width: 100%;
+    .h4 {
+      color: var(--color-red);
+    }
+    span {
+      color: var(--color-grey);
+      font-family: "Roboto Condensed", sans-serif;
+    }
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    &:hover {
+      .albums-section__img {
+        img {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+  &__img {
+    aspect-ratio: 260/172;
+    position: relative;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: all 0.3s;
+    }
+  }
+}

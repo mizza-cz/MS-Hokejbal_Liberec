@@ -1,0 +1,10 @@
+{% extends "@components/base/base.twig" %} {% set title = "07.0_albums" %} {%
+block main %}
+<div class="main__row">
+  <div class="main__content">
+    {% include "@components/albums-section/albums-section.twig" %}
+  </div>
+  {% include "@components/aside/aside.twig" %}
+</div>
+
+{% endblock %}
