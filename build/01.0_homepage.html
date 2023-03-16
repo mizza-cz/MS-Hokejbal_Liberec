@@ -649,216 +649,683 @@
 								<div class="tabs-wrapper">
 									<!-- tab 1  -->
 									<div id="cz" class="tab-content tab-active">
-										<ul class=" filter-menu">
-											<li data-filter="all">
-												<a class="active" href="#">všechny </a>
+										<ul class="automatic filter-menu" role="tablist" aria-labelledby="tablist-1">
+
+											<li>
+												<button id="tab-1" type="button" role="tab" aria-selected="true" aria-controls="tabpanel-1">všechny </button>
 											</li>
-											<li data-filter=".u23">
-												<a href="#"> U23 CH</a>
+											<li>
+												<button id="tab-2" type="button" role="tab" aria-selected="false" tabindex="-1" aria-controls="tabpanel-2"> U23 CH</button>
 											</li>
-											<li data-filter=".u20">
-												<a href="#"> U20 CH </a>
+											<li>
+												<button id="tab-3" type="button" role="tab" aria-selected="false" aria-controls="tabpanel-3" tabindex="-1">U20 CH</button>
 											</li>
-											<li data-filter=".u18">
-												<a href="#">U18 CH </a>
+											<li>
+												<button id="tab-4" type="button" role="tab" aria-selected="false" aria-controls="tabpanel-4" tabindex="-1">U18 CH </button>
 											</li>
-											<li data-filter=".u16">
-												<a href="#">U18 CH </a>
-											</li>
-											<li data-filter=".u23d">
-												<a href="#">U23 D</a>
+
+											<li>
+												<button id="tab-5" type="button" role="tab" aria-selected="false" aria-controls="tabpanel-5" tabindex="-1">U23 D </button>
 											</li>
 										</ul>
-										<div class="filtr-container">
-											<div class="game-box ">
-												<div class="game-box__top">
-													<div class="team1">
-														<div class="name">
-															<img src="images/ico/1.svg" /><br />Česko
+										<div class="filter-content__wrapper">
+											<div class="filtr-container" id="tabpanel-1" role="tabpanel" tabindex="0" aria-labelledby="tab-1">
+
+												<div class="game-box ">
+													<div class="game-box__top">
+														<div class="team1">
+															<div class="name">
+																<img src="images/ico/1.svg" /><br />Česko
+															</div>
+														</div>
+														<div class="scoreBox">
+															<div class="score">0:13</div>
+															<div class="infoGame">
+																U23 CHLAPCI
+																<br>
+																LIBEREC
+															</div>
+														</div>
+														<div class="team2">
+															<div class="name">
+																<img src="images/ico/4.svg" /> <br />Slovensko
+															</div>
 														</div>
 													</div>
-													<div class="scoreBox">
-														<div class="score">0:13</div>
-														<div class="infoGame">
-															U23 CHLAPCI
-															<br>
-															LIBEREC
-														</div>
-													</div>
-													<div class="team2">
-														<div class="name">
-															<img src="images/ico/4.svg" /> <br />Slovensko
-														</div>
-													</div>
+
+													<ul class="buttons">
+														<li>
+															<a href="#" target="_blank" class="stream">stream</a>
+														</li>
+														<li>
+															<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+														</li>
+														<li>
+															<a href="#" class="report">Reportáž zápasu</a>
+														</li>
+													</ul>
 												</div>
-												<ul class="buttons">
-													<li>
-														<a href="#" target="_blank" class="stream">stream</a>
-													</li>
-													<li>
-														<a href="#" target="_blank" class="onlajny">onlajny.com</a>
-													</li>
-													<li>
-														<a href="#" class="report">Reportáž zápasu</a>
-													</li>
-												</ul>
-											</div>
-											<div class="game-box ">
-												<div class="game-box__top">
-													<div class="team1">
-														<div class="name">
-															<img src="images/ico/1.svg" /><br />Česko
+												<div class="game-box ">
+													<div class="game-box__top">
+														<div class="team1">
+															<div class="name">
+																<img src="images/ico/1.svg" /><br />Česko
+															</div>
+														</div>
+														<div class="scoreBox">
+															<div class="score">0:13</div>
+															<div class="infoGame">
+																U23 CHLAPCI
+																<br>
+																LIBEREC
+															</div>
+														</div>
+														<div class="team2">
+															<div class="name">
+																<img src="images/ico/4.svg" /> <br />Slovensko
+															</div>
 														</div>
 													</div>
-													<div class="scoreBox">
-														<div class="score">0:13</div>
-														<div class="infoGame">
-															U23 CHLAPCI
-															<br>
-															LIBEREC
-														</div>
-													</div>
-													<div class="team2">
-														<div class="name">
-															<img src="images/ico/4.svg" /> <br />Slovensko
-														</div>
-													</div>
+
+													<ul class="buttons">
+
+														<li>
+															<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+														</li>
+														<li>
+															<a href="#" class="report">Reportáž zápasu</a>
+														</li>
+													</ul>
 												</div>
+												<div class="game-box ">
+													<div class="game-box__top">
+														<div class="team1">
+															<div class="name">
+																<img src="images/ico/1.svg" /><br />Česko
+															</div>
+														</div>
+														<div class="scoreBox">
+															<div class="score">0:13</div>
+															<div class="infoGame">
+																U23 CHLAPCI
+																<br>
+																LIBEREC
+															</div>
+														</div>
+														<div class="team2">
+															<div class="name">
+																<img src="images/ico/4.svg" /> <br />Slovensko
+															</div>
+														</div>
+													</div>
 
-												<ul class="buttons">
-													<li>
-														<a href="#" target="_blank" class="stream">stream</a>
-													</li>
-													<li>
-														<a href="#" target="_blank" class="onlajny">onlajny.com</a>
-													</li>
-													<li>
-														<a href="#" class="report">Reportáž zápasu</a>
-													</li>
-												</ul>
-											</div>
-											<div class="game-box ">
-												<div class="game-box__top">
-													<div class="team1">
-														<div class="name">
-															<img src="images/ico/1.svg" /><br />Česko
-														</div>
-													</div>
-													<div class="scoreBox">
-														<div class="score">0:13</div>
-														<div class="infoGame">
-															U23 CHLAPCI
-															<br>
-															LIBEREC
-														</div>
-													</div>
-													<div class="team2">
-														<div class="name">
-															<img src="images/ico/4.svg" /> <br />Slovensko
-														</div>
-													</div>
+													<ul class="buttons">
+														<li>
+															<a href="#" target="_blank" class="stream">stream</a>
+														</li>
+
+														<li>
+															<a href="#" class="report">Reportáž zápasu</a>
+														</li>
+													</ul>
 												</div>
+												<div class="game-box ">
+													<div class="game-box__top">
+														<div class="team1">
+															<div class="name">
+																<img src="images/ico/1.svg" /><br />Česko
+															</div>
+														</div>
+														<div class="scoreBox">
+															<div class="score">0:13</div>
+															<div class="infoGame">
+																U23 CHLAPCI
+																<br>
+																LIBEREC
+															</div>
+														</div>
+														<div class="team2">
+															<div class="name">
+																<img src="images/ico/4.svg" /> <br />Slovensko
+															</div>
+														</div>
+													</div>
 
-												<ul class="buttons">
-													<li>
-														<a href="#" target="_blank" class="stream">stream</a>
-													</li>
-													<li>
-														<a href="#" target="_blank" class="onlajny">onlajny.com</a>
-													</li>
-													<li>
-														<a href="#" class="report">Reportáž zápasu</a>
-													</li>
-												</ul>
-											</div>
-											<div class="game-box ">
-												<div class="game-box__top">
-													<div class="team1">
-														<div class="name">
-															<img src="images/ico/1.svg" /><br />Česko
-														</div>
-													</div>
-													<div class="scoreBox">
-														<div class="score">0:13</div>
-														<div class="infoGame">
-															U23 CHLAPCI
-															<br>
-															LIBEREC
-														</div>
-													</div>
-													<div class="team2">
-														<div class="name">
-															<img src="images/ico/4.svg" /> <br />Slovensko
-														</div>
-													</div>
 												</div>
-
-												<ul class="buttons">
-
-													<li>
-														<a href="#" target="_blank" class="onlajny">onlajny.com</a>
-													</li>
-													<li>
-														<a href="#" class="report">Reportáž zápasu</a>
-													</li>
-												</ul>
+												<a href="#" class="link mt-5 text-center">kompletní rozpis zápasů</a>
 											</div>
-											<div class="game-box ">
-												<div class="game-box__top">
-													<div class="team1">
-														<div class="name">
-															<img src="images/ico/1.svg" /><br />Česko
+											<div class="filtr-container" id="tabpanel-2" role="tabpanel" tabindex="0" aria-labelledby="tab-2">
+
+												<div class="game-box ">
+													<div class="game-box__top">
+														<div class="team1">
+															<div class="name">
+																<img src="images/ico/1.svg" /><br />Česko
+															</div>
+														</div>
+														<div class="scoreBox">
+															<div class="score">0:13</div>
+															<div class="infoGame">
+																U23 CHLAPCI
+																<br>
+																LIBEREC
+															</div>
+														</div>
+														<div class="team2">
+															<div class="name">
+																<img src="images/ico/4.svg" /> <br />Slovensko
+															</div>
 														</div>
 													</div>
-													<div class="scoreBox">
-														<div class="score">0:13</div>
-														<div class="infoGame">
-															U23 CHLAPCI
-															<br>
-															LIBEREC
-														</div>
-													</div>
-													<div class="team2">
-														<div class="name">
-															<img src="images/ico/4.svg" /> <br />Slovensko
-														</div>
-													</div>
+
+													<ul class="buttons">
+
+														<li>
+															<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+														</li>
+														<li>
+															<a href="#" class="report">Reportáž zápasu</a>
+														</li>
+													</ul>
 												</div>
+												<div class="game-box ">
+													<div class="game-box__top">
+														<div class="team1">
+															<div class="name">
+																<img src="images/ico/1.svg" /><br />Česko
+															</div>
+														</div>
+														<div class="scoreBox">
+															<div class="score">0:13</div>
+															<div class="infoGame">
+																U23 CHLAPCI
+																<br>
+																LIBEREC
+															</div>
+														</div>
+														<div class="team2">
+															<div class="name">
+																<img src="images/ico/4.svg" /> <br />Slovensko
+															</div>
+														</div>
+													</div>
 
-												<ul class="buttons">
-													<li>
-														<a href="#" target="_blank" class="stream">stream</a>
-													</li>
+													<ul class="buttons">
+														<li>
+															<a href="#" target="_blank" class="stream">stream</a>
+														</li>
 
-													<li>
-														<a href="#" class="report">Reportáž zápasu</a>
-													</li>
-												</ul>
-											</div>
-											<div class="game-box ">
-												<div class="game-box__top">
-													<div class="team1">
-														<div class="name">
-															<img src="images/ico/1.svg" /><br />Česko
-														</div>
-													</div>
-													<div class="scoreBox">
-														<div class="score">0:13</div>
-														<div class="infoGame">
-															U23 CHLAPCI
-															<br>
-															LIBEREC
-														</div>
-													</div>
-													<div class="team2">
-														<div class="name">
-															<img src="images/ico/4.svg" /> <br />Slovensko
-														</div>
-													</div>
+														<li>
+															<a href="#" class="report">Reportáž zápasu</a>
+														</li>
+													</ul>
 												</div>
+												<div class="game-box ">
+													<div class="game-box__top">
+														<div class="team1">
+															<div class="name">
+																<img src="images/ico/1.svg" /><br />Česko
+															</div>
+														</div>
+														<div class="scoreBox">
+															<div class="score">0:13</div>
+															<div class="infoGame">
+																U23 CHLAPCI
+																<br>
+																LIBEREC
+															</div>
+														</div>
+														<div class="team2">
+															<div class="name">
+																<img src="images/ico/4.svg" /> <br />Slovensko
+															</div>
+														</div>
+													</div>
 
+												</div>
+												<a href="#" class="link mt-5 text-center">kompletní rozpis zápasů</a>
 											</div>
-											<a href="#" class="link mt-5 text-center">kompletní rozpis zápasů</a>
+											<div class="filtr-container" id="tabpanel-3" role="tabpanel" tabindex="0" aria-labelledby="tab-3">
+												<div class="game-box ">
+													<div class="game-box__top">
+														<div class="team1">
+															<div class="name">
+																<img src="images/ico/1.svg" /><br />Česko
+															</div>
+														</div>
+														<div class="scoreBox">
+															<div class="score">0:13</div>
+															<div class="infoGame">
+																U23 CHLAPCI
+																<br>
+																LIBEREC
+															</div>
+														</div>
+														<div class="team2">
+															<div class="name">
+																<img src="images/ico/4.svg" /> <br />Slovensko
+															</div>
+														</div>
+													</div>
+													<ul class="buttons">
+														<li>
+															<a href="#" target="_blank" class="stream">stream</a>
+														</li>
+														<li>
+															<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+														</li>
+														<li>
+															<a href="#" class="report">Reportáž zápasu</a>
+														</li>
+													</ul>
+												</div>
+												<div class="game-box ">
+													<div class="game-box__top">
+														<div class="team1">
+															<div class="name">
+																<img src="images/ico/1.svg" /><br />Česko
+															</div>
+														</div>
+														<div class="scoreBox">
+															<div class="score">0:13</div>
+															<div class="infoGame">
+																U23 CHLAPCI
+																<br>
+																LIBEREC
+															</div>
+														</div>
+														<div class="team2">
+															<div class="name">
+																<img src="images/ico/4.svg" /> <br />Slovensko
+															</div>
+														</div>
+													</div>
+
+													<ul class="buttons">
+														<li>
+															<a href="#" target="_blank" class="stream">stream</a>
+														</li>
+														<li>
+															<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+														</li>
+														<li>
+															<a href="#" class="report">Reportáž zápasu</a>
+														</li>
+													</ul>
+												</div>
+												<div class="game-box ">
+													<div class="game-box__top">
+														<div class="team1">
+															<div class="name">
+																<img src="images/ico/1.svg" /><br />Česko
+															</div>
+														</div>
+														<div class="scoreBox">
+															<div class="score">0:13</div>
+															<div class="infoGame">
+																U23 CHLAPCI
+																<br>
+																LIBEREC
+															</div>
+														</div>
+														<div class="team2">
+															<div class="name">
+																<img src="images/ico/4.svg" /> <br />Slovensko
+															</div>
+														</div>
+													</div>
+
+													<ul class="buttons">
+														<li>
+															<a href="#" target="_blank" class="stream">stream</a>
+														</li>
+														<li>
+															<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+														</li>
+														<li>
+															<a href="#" class="report">Reportáž zápasu</a>
+														</li>
+													</ul>
+												</div>
+												<div class="game-box ">
+													<div class="game-box__top">
+														<div class="team1">
+															<div class="name">
+																<img src="images/ico/1.svg" /><br />Česko
+															</div>
+														</div>
+														<div class="scoreBox">
+															<div class="score">0:13</div>
+															<div class="infoGame">
+																U23 CHLAPCI
+																<br>
+																LIBEREC
+															</div>
+														</div>
+														<div class="team2">
+															<div class="name">
+																<img src="images/ico/4.svg" /> <br />Slovensko
+															</div>
+														</div>
+													</div>
+
+													<ul class="buttons">
+
+														<li>
+															<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+														</li>
+														<li>
+															<a href="#" class="report">Reportáž zápasu</a>
+														</li>
+													</ul>
+												</div>
+												<div class="game-box ">
+													<div class="game-box__top">
+														<div class="team1">
+															<div class="name">
+																<img src="images/ico/1.svg" /><br />Česko
+															</div>
+														</div>
+														<div class="scoreBox">
+															<div class="score">0:13</div>
+															<div class="infoGame">
+																U23 CHLAPCI
+																<br>
+																LIBEREC
+															</div>
+														</div>
+														<div class="team2">
+															<div class="name">
+																<img src="images/ico/4.svg" /> <br />Slovensko
+															</div>
+														</div>
+													</div>
+
+													<ul class="buttons">
+														<li>
+															<a href="#" target="_blank" class="stream">stream</a>
+														</li>
+
+														<li>
+															<a href="#" class="report">Reportáž zápasu</a>
+														</li>
+													</ul>
+												</div>
+												<div class="game-box ">
+													<div class="game-box__top">
+														<div class="team1">
+															<div class="name">
+																<img src="images/ico/1.svg" /><br />Česko
+															</div>
+														</div>
+														<div class="scoreBox">
+															<div class="score">0:13</div>
+															<div class="infoGame">
+																U23 CHLAPCI
+																<br>
+																LIBEREC
+															</div>
+														</div>
+														<div class="team2">
+															<div class="name">
+																<img src="images/ico/4.svg" /> <br />Slovensko
+															</div>
+														</div>
+													</div>
+
+												</div>
+												<a href="#" class="link mt-5 text-center">kompletní rozpis zápasů</a>
+											</div>
+											<div class="filtr-container" id="tabpanel-4" role="tabpanel" tabindex="0" aria-labelledby="tab-4">
+
+												<div class="game-box ">
+													<div class="game-box__top">
+														<div class="team1">
+															<div class="name">
+																<img src="images/ico/1.svg" /><br />Česko
+															</div>
+														</div>
+														<div class="scoreBox">
+															<div class="score">0:13</div>
+															<div class="infoGame">
+																U23 CHLAPCI
+																<br>
+																LIBEREC
+															</div>
+														</div>
+														<div class="team2">
+															<div class="name">
+																<img src="images/ico/4.svg" /> <br />Slovensko
+															</div>
+														</div>
+													</div>
+
+													<ul class="buttons">
+														<li>
+															<a href="#" target="_blank" class="stream">stream</a>
+														</li>
+
+														<li>
+															<a href="#" class="report">Reportáž zápasu</a>
+														</li>
+													</ul>
+												</div>
+												<div class="game-box ">
+													<div class="game-box__top">
+														<div class="team1">
+															<div class="name">
+																<img src="images/ico/1.svg" /><br />Česko
+															</div>
+														</div>
+														<div class="scoreBox">
+															<div class="score">0:13</div>
+															<div class="infoGame">
+																U23 CHLAPCI
+																<br>
+																LIBEREC
+															</div>
+														</div>
+														<div class="team2">
+															<div class="name">
+																<img src="images/ico/4.svg" /> <br />Slovensko
+															</div>
+														</div>
+													</div>
+
+												</div>
+												<a href="#" class="link mt-5 text-center">kompletní rozpis zápasů</a>
+											</div>
+											<div class="filtr-container" id="tabpanel-5" role="tabpanel" tabindex="0" aria-labelledby="tab-5">
+												<div class="game-box ">
+													<div class="game-box__top">
+														<div class="team1">
+															<div class="name">
+																<img src="images/ico/1.svg" /><br />Česko
+															</div>
+														</div>
+														<div class="scoreBox">
+															<div class="score">0:13</div>
+															<div class="infoGame">
+																U23 CHLAPCI
+																<br>
+																LIBEREC
+															</div>
+														</div>
+														<div class="team2">
+															<div class="name">
+																<img src="images/ico/4.svg" /> <br />Slovensko
+															</div>
+														</div>
+													</div>
+													<ul class="buttons">
+														<li>
+															<a href="#" target="_blank" class="stream">stream</a>
+														</li>
+														<li>
+															<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+														</li>
+														<li>
+															<a href="#" class="report">Reportáž zápasu</a>
+														</li>
+													</ul>
+												</div>
+												<div class="game-box ">
+													<div class="game-box__top">
+														<div class="team1">
+															<div class="name">
+																<img src="images/ico/1.svg" /><br />Česko
+															</div>
+														</div>
+														<div class="scoreBox">
+															<div class="score">0:13</div>
+															<div class="infoGame">
+																U23 CHLAPCI
+																<br>
+																LIBEREC
+															</div>
+														</div>
+														<div class="team2">
+															<div class="name">
+																<img src="images/ico/4.svg" /> <br />Slovensko
+															</div>
+														</div>
+													</div>
+
+													<ul class="buttons">
+														<li>
+															<a href="#" target="_blank" class="stream">stream</a>
+														</li>
+														<li>
+															<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+														</li>
+														<li>
+															<a href="#" class="report">Reportáž zápasu</a>
+														</li>
+													</ul>
+												</div>
+												<div class="game-box ">
+													<div class="game-box__top">
+														<div class="team1">
+															<div class="name">
+																<img src="images/ico/1.svg" /><br />Česko
+															</div>
+														</div>
+														<div class="scoreBox">
+															<div class="score">0:13</div>
+															<div class="infoGame">
+																U23 CHLAPCI
+																<br>
+																LIBEREC
+															</div>
+														</div>
+														<div class="team2">
+															<div class="name">
+																<img src="images/ico/4.svg" /> <br />Slovensko
+															</div>
+														</div>
+													</div>
+
+													<ul class="buttons">
+														<li>
+															<a href="#" target="_blank" class="stream">stream</a>
+														</li>
+														<li>
+															<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+														</li>
+														<li>
+															<a href="#" class="report">Reportáž zápasu</a>
+														</li>
+													</ul>
+												</div>
+												<div class="game-box ">
+													<div class="game-box__top">
+														<div class="team1">
+															<div class="name">
+																<img src="images/ico/1.svg" /><br />Česko
+															</div>
+														</div>
+														<div class="scoreBox">
+															<div class="score">0:13</div>
+															<div class="infoGame">
+																U23 CHLAPCI
+																<br>
+																LIBEREC
+															</div>
+														</div>
+														<div class="team2">
+															<div class="name">
+																<img src="images/ico/4.svg" /> <br />Slovensko
+															</div>
+														</div>
+													</div>
+
+													<ul class="buttons">
+
+														<li>
+															<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+														</li>
+														<li>
+															<a href="#" class="report">Reportáž zápasu</a>
+														</li>
+													</ul>
+												</div>
+												<div class="game-box ">
+													<div class="game-box__top">
+														<div class="team1">
+															<div class="name">
+																<img src="images/ico/1.svg" /><br />Česko
+															</div>
+														</div>
+														<div class="scoreBox">
+															<div class="score">0:13</div>
+															<div class="infoGame">
+																U23 CHLAPCI
+																<br>
+																LIBEREC
+															</div>
+														</div>
+														<div class="team2">
+															<div class="name">
+																<img src="images/ico/4.svg" /> <br />Slovensko
+															</div>
+														</div>
+													</div>
+
+													<ul class="buttons">
+														<li>
+															<a href="#" target="_blank" class="stream">stream</a>
+														</li>
+
+														<li>
+															<a href="#" class="report">Reportáž zápasu</a>
+														</li>
+													</ul>
+												</div>
+												<div class="game-box ">
+													<div class="game-box__top">
+														<div class="team1">
+															<div class="name">
+																<img src="images/ico/1.svg" /><br />Česko
+															</div>
+														</div>
+														<div class="scoreBox">
+															<div class="score">0:13</div>
+															<div class="infoGame">
+																U23 CHLAPCI
+																<br>
+																LIBEREC
+															</div>
+														</div>
+														<div class="team2">
+															<div class="name">
+																<img src="images/ico/4.svg" /> <br />Slovensko
+															</div>
+														</div>
+													</div>
+
+												</div>
+												<a href="#" class="link mt-5 text-center">kompletní rozpis zápasů</a>
+											</div>
 										</div>
 
 									</div>
