@@ -19,7 +19,13 @@ table {
   }
   th,
   td {
+    padding-left: 8px;
+    padding-right: 8px;
     border-bottom: 1px solid var(--color-border);
+  }
+  th a,
+  td a {
+    text-decoration: transparent;
   }
   tr:last-child td {
     border-bottom: none;

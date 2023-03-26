@@ -1,0 +1,36 @@
+.statistics-section {
+  background-color: var(--color-light);
+  border-radius: 4px;
+  padding: 40px 32px;
+  margin-bottom: 20px;
+  .o-content table {
+    white-space: nowrap;
+    th,
+    td {
+      text-align: center;
+      width: auto;
+    }
+    td:nth-child(1),
+    th:nth-child(1),
+    td:nth-child(2),
+    th:nth-child(2) {
+      width: 40px;
+    }
+    td:nth-child(3),
+    th:nth-child(3) {
+      text-align: left;
+      width: auto;
+    }
+    td {
+      align-items: center;
+      vertical-align: middle;
+      img {
+        width: 20px;
+        height: auto;
+        object-fit: contain;
+        display: block;
+        margin: auto;
+      }
+    }
+  }
+}
