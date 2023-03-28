@@ -1,6 +1,9 @@
 .main {
   padding: 0 8px;
   width: 100%;
+  @include media-breakpoint-down(xl) {
+    padding: 0;
+  }
   &__row {
     display: flex;
   }
