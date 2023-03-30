@@ -1,4 +1,5 @@
-.article-section {
+.article-section,
+.match-section {
   margin-top: 56px;
   margin-bottom: 60px;
   @include media-breakpoint-down(md) {

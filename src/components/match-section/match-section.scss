@@ -1,0 +1,51 @@
+.match-section__box {
+  margin-bottom: 0px;
+  margin-top: -10px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--color-border);
+  h4 {
+    margin-bottom: 16px;
+  }
+  .perex {
+    margin-top: 32px !important;
+  }
+  .team-section__title img {
+    width: 2rem;
+  }
+}
+.match-section__logo {
+  width: 6rem;
+  margin: 0 auto;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+.match-section__info {
+  text-align: center;
+  p {
+    margin-bottom: 12px;
+  }
+  .scoreBox {
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+  span {
+    display: block;
+    color: var(--color-grey);
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+}
+.match-section {
+  &__list {
+    text-align: center;
+    span {
+      display: block;
+    }
+  }
+}

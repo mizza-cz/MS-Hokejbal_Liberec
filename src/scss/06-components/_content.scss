@@ -26,13 +26,15 @@
     margin-bottom: 32px;
   }
   h2,
-  h3,
-  h4,
   h5,
   h6 {
     margin-top: 24px;
     margin-bottom: 24px;
-    text-transform: unset;
+  }
+  h3,
+  h4 {
+    margin-bottom: 16px;
+    margin-top: 24px;
   }
   img {
     width: 100%;
@@ -132,6 +134,8 @@
 .o-content h4 {
   font-size: 18px;
   line-height: 24px;
+  font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
 }
 .h5,
 .o-content h5 {
@@ -167,4 +171,5 @@ a.p3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 32px;
+  margin-top: 24px;
 }

@@ -1,0 +1,11 @@
+{% extends "@components/base/base.twig" %} {% set title = "11.0_match" %} {%
+block main %}
+<div class="main__row full-content">
+  <div class="main__content">
+    {% include "@components/topstory-section/topstory-section-2.twig" %} {%
+    include "@components/match-section/match-section.twig" %}
+  </div>
+  {% include "@components/aside/aside.twig" %}
+</div>
+
+{% endblock %}
