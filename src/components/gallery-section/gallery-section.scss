@@ -1,5 +1,9 @@
 .gallery-section {
   .gallery {
+    figure {
+      width: 100%;
+      display: block;
+    }
   }
   .gallery a {
     position: relative;
