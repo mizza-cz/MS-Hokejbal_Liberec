@@ -28,7 +28,7 @@ if ($(".js-gallery").length) {
     $pic.on("click", "figure", function (event) {
       event.preventDefault();
 
-      var $index = $(this).parent().index();
+      var $index = $(this).index();
       var options = {
         index: $index,
         bgOpacity: 0.7,
