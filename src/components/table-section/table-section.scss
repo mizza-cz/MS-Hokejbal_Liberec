@@ -1,0 +1,34 @@
+.table-section {
+}
+.table-section {
+  .o-content table {
+    white-space: nowrap;
+    th,
+    td {
+      text-align: center;
+      width: 60px;
+    }
+    td:nth-child(1),
+    th:nth-child(1),
+    td:nth-child(2),
+    th:nth-child(2) {
+      width: 40px;
+    }
+    td:nth-child(3),
+    th:nth-child(3) {
+      text-align: left;
+      width: auto;
+    }
+    td {
+      align-items: center;
+      vertical-align: middle;
+      img {
+        width: 20px;
+        height: auto;
+        object-fit: contain;
+        display: block;
+        margin: auto;
+      }
+    }
+  }
+}
