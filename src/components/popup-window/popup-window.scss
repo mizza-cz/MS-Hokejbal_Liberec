@@ -33,7 +33,10 @@
 .popup-content {
   background-color: #152b48;
   position: relative;
-  padding: 40px 80px;
+  padding: 40px 20px 24px 20px;
+  width: 100%;
+  @media (max-width: 840px) {
+  }
 }
 .popup-img {
   max-width: 800px;
